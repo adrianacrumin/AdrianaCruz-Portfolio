@@ -1,7 +1,7 @@
 # Loan Default Prediction – PCA & Logistic Regression  
 
-## 📂 Dataset  
-🔗 **[Loan Data (Google Drive)](https://drive.google.com/drive/folders/1I3H-8KGHDni2CE0t1b_mSAlJ78aQb9iL?usp=sharing)**  
+## Dataset  
+ **[Loan Data (Google Drive)](https://drive.google.com/drive/folders/1I3H-8KGHDni2CE0t1b_mSAlJ78aQb9iL?usp=sharing)**  
 This dataset contains **160 features** related to borrower financials, loan applications, and repayment behavior.  
 
 ## Project Overview  
