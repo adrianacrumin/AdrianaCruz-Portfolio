@@ -7,8 +7,6 @@ I am a **Business Analytics MS student at UT Austin - McCombs**, focused on **br
 
 ## Featured Projects  
 1. **Loan Default Prediction** – Predicting loan repayment behavior using PCA & Logistic Regression.  
-2. **Consumer Segmentation** – Using cluster analysis to identify customer behavior patterns.  
-3. **Market Trend Analysis** – Extracting actionable insights from emerging consumer trends.  
 
 ## Skills & Tools  
 - **Technical Tools:** Python, SQL, R, Microsoft Excel, Google Analytics, Airtable  
