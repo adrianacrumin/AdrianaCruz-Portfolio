@@ -1,24 +1,35 @@
 # Loan Default Prediction – PCA & Logistic Regression  
 
+## 📂 Dataset  
+🔗 **[Loan Data (Google Drive)](https://drive.google.com/drive/folders/1I3H-8KGHDni2CE0t1b_mSAlJ78aQb9iL?usp=sharing)**  
+This dataset contains **160 features** related to borrower financials, loan applications, and repayment behavior.  
+
 ## Project Overview  
-This project explores **loan default prediction using Principal Component Analysis (PCA) and Logistic Regression**. The goal is to evaluate how dimensionality reduction affects **model accuracy and interpretability**, helping lenders make **smarter risk assessments** while maintaining efficiency.  
+This project explores how **machine learning can improve loan approval decisions** while balancing **accuracy and efficiency**.  
 
-By applying **PCA** to reduce the number of features and training **four logistic regression models**, we analyze the trade-off between **computational efficiency and predictive power** in financial modeling.  
+Using **Principal Component Analysis for dimensionality reduction** and **Logistic Regression**, I analyzed how reducing features impacts **predictive power**.  
 
+### **💡 Key Business Questions:**  
+✔ Can machine learning improve loan approvals?  
+✔ Does PCA affect prediction accuracy?  
+✔ Which factors best predict loan repayment?  
+ 
 ---
 
-## Business Purpose  
-Lending institutions must **accurately identify high-risk loans** to minimize defaults while maximizing approved loans. However, using **too many features** in a predictive model can lead to **higher complexity, slower processing, and potential overfitting**.  
+##Results & Insights  
 
-This project answers key business questions:  
-✔ **Can machine learning improve loan approval decisions?**  
-✔ **Does reducing feature dimensions via PCA affect model performance?**  
-✔ **Which factors most strongly predict loan repayment behavior?**  
+| Model | AUC Score | Accuracy | Best Use Case |
+|--------|----------|-----------|----------------|
+| **Full Model (160 Features)** | **0.95** | ✅ Best accuracy | Best for high-risk loan detection |
+| **PCA (100 Features)** | **0.94** | ✅ More efficient | Balance of speed & accuracy |
+| **PCA (30 Features)** | **0.94** | ✅ Good trade-off | Compressed, but still useful |
+| **PCA (10 Features)** | **0.68** | ❌ Unreliable | Loses key predictive signals |
 
-By balancing **predictive accuracy with computational efficiency**, this project supports **data-driven lending strategies**, reducing financial risk while maintaining business growth.  
+✔ **Best Model:** Full dataset (160 features) → Most accurate but computationally heavy  
+✔ **Best Trade-Off:** PCA (100 & 30 features) → Faster while maintaining strong predictions  
+✔ **Worst Model:** PCA (10 features) → Loses too much important information  
 
 ---
-
 ## Assignment Requirements  
 (*For academic transparency, these are the original instructions.*)  
 
@@ -50,37 +61,18 @@ In this problem we will be applying PCA on the Lending Club loan dataset. A simp
 
 ---
 
-## Key Findings & Business Takeaways  
-| Model | AUC Score | Accuracy | Best Use Case |
-|--------|----------|-----------|----------------|
-| **Full Model (160 Features)** | **0.95** | ✅ **Best Model** | High accuracy & recall |
-| **PCA (100 Features)** | **0.94** | ✅ **Efficient Model** | Reduces complexity but performs well |
-| **PCA (30 Features)** | **0.94** | ✅ **Good Balance** | Slightly compressed, still useful |
-| **PCA (10 Features)** | **0.68** | ❌ **Unreliable** | Loses too much information |
-
-**Business Takeaway:**  
-- **Full Model (160 Features)** is ideal for **accuracy-driven loan risk assessment**.  
-- **PCA (100 & 30 Features)** provides **a more efficient model while maintaining strong predictive power**.  
-- **PCA (10 Features) is too compressed** and removes too much important information for real-world use.  
-
----
-
 ## What I Learned from This Project  
 
-Before this project, I thought machine learning models were all about getting the highest accuracy possible. Now, I realize that in business, it's about balancing predictive power with practical use. Lenders don’t just need a good model—they need something interpretable, efficient, and fair. This assignment helped me see how dimensionality reduction like PCA can be a useful tool, but only when applied carefully. 
-
-Through **PCA and Logistic Regression**, I saw how reducing features can improve efficiency but may also lead to **loss of key predictive signals**—a crucial trade-off in real-world consumer analytics.  
-
-More importantly, I learned that **machine learning isn’t just about accuracy—it’s about making models practical for business decisions**. In lending, risk assessment requires **transparency, efficiency, and fairness**, not just predictive power.  
-
-This project reinforced that **data is only valuable if it can be communicated effectively**. Executives and stakeholders don’t just need predictions—they need **insights that drive actionable decisions**.  
+- **Machine learning isn’t just about accuracy—it’s about balancing efficiency and interpretability.**  
+- **PCA can reduce complexity**, but too much dimensionality reduction weakens predictions.  
+- **For real-world applications, we need models that are fast, fair, and explainable.**  
 
 ---
 
-## Skills & Tools Used  
-- **Technical Tools:** Python, SQL, Scikit-Learn, Pandas, NumPy, Matplotlib  
-- **Machine Learning Techniques:** PCA, Logistic Regression, Feature Scaling  
-- **Evaluation Metrics:** Precision, Recall, F1-score, ROC-AUC  
-- **Business Analytics:** Risk Analysis, Loan Repayment Prediction  
+## Tools & Techniques Used  
+- **Python** (Pandas, NumPy, Scikit-Learn, Matplotlib)  
+- **Machine Learning** (PCA, Logistic Regression, Feature Scaling)  
+- **Evaluation Metrics** (Precision, Recall, F1-score, AUC-ROC)  
+- **Business Analytics** (Loan Risk Assessment)  
 
 ---
