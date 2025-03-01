@@ -16,7 +16,7 @@ Using **Principal Component Analysis for dimensionality reduction** and **Logist
  
 ---
 
-##Results & Insights  
+## Results & Insights  
 
 | Model | AUC Score | Accuracy | Best Use Case |
 |--------|----------|-----------|----------------|
