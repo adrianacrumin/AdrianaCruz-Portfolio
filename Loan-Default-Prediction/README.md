@@ -9,7 +9,7 @@ This project explores how **machine learning can improve loan approval decisions
 
 Using **Principal Component Analysis for dimensionality reduction** and **Logistic Regression**, I analyzed how reducing features impacts **predictive power**.  
 
-### **💡 Key Business Questions:**  
+### **Key Business Questions:**  
 ✔ Can machine learning improve loan approvals?  
 ✔ Does PCA affect prediction accuracy?  
 ✔ Which factors best predict loan repayment?  
@@ -20,10 +20,10 @@ Using **Principal Component Analysis for dimensionality reduction** and **Logist
 
 | Model | AUC Score | Accuracy | Best Use Case |
 |--------|----------|-----------|----------------|
-| **Full Model (160 Features)** | **0.95** | ✅ Best accuracy | Best for high-risk loan detection |
-| **PCA (100 Features)** | **0.94** | ✅ More efficient | Balance of speed & accuracy |
-| **PCA (30 Features)** | **0.94** | ✅ Good trade-off | Compressed, but still useful |
-| **PCA (10 Features)** | **0.68** | ❌ Unreliable | Loses key predictive signals |
+| **Full Model (160 Features)** | **0.95** | Best accuracy | Best for high-risk loan detection |
+| **PCA (100 Features)** | **0.94** | More efficient | Balance of speed & accuracy |
+| **PCA (30 Features)** | **0.94** | Good trade-off | Compressed, but still useful |
+| **PCA (10 Features)** | **0.68** | Unreliable | Loses key predictive signals |
 
 ✔ **Best Model:** Full dataset (160 features) → Most accurate but computationally heavy  
 ✔ **Best Trade-Off:** PCA (100 & 30 features) → Faster while maintaining strong predictions  
