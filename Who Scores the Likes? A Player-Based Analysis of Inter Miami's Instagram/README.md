@@ -31,6 +31,6 @@ STILL ACTIVELY WORKING ON IT
 - Custom engagement score: weighted likes + comments
 ---
 ### 💬 Why I’m Doing This
-I love soccer, data, and storytelling — so this felt like the perfect passion project. Social media strategy in sports is fascinating, and I wanted to see what the numbers say behind the scenes. ⚽️📊
+I love soccer, data, and storytelling — so this felt like the perfect passion project. Social media strategy in sports is fascinating, and I wanted to see what the numbers say behind the scenes.
 
 ---
