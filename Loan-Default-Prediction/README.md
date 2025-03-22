@@ -31,33 +31,30 @@ Using **Principal Component Analysis for dimensionality reduction** and **Logist
 
 ---
 ## Assignment Requirements  
-(*For academic transparency, these are the original instructions.*)  
+*(This project was completed as part of a university course on applied machine learning. The following is a reworded summary of the original assignment instructions, included for context and academic transparency.)*
 
-## 1. PCA
-In this problem we will be applying PCA on the Lending Club loan dataset. A simplified version of the dataset with reduced number of samples. Please use the dataset given in the file named `loan.csv`.
+In this individual project, I explored how dimensionality reduction affects predictive performance in the context of loan default prediction. The dataset used contained 160 features related to loan applications, borrower profiles, and repayment behavior.
 
-### **1. Data Preprocessing**  
-- Select `'loan_status'` as the target variable (`y`), with all other features as `X`.  
-- Split data into **training (75%) and testing (25%)** sets.  
-- Apply **Min-Max Scaling** to standardize features.  
-- Ensure `X` has **160 features** after preprocessing.  
+THe objective was to understand how reducing the number of features using **Principal Component Analysis (PCA)** impacts the accuracy and efficiency of a **Logistic Regression** model when predicting loan repayment status.
 
-### **2. Dimensionality Reduction with PCA**  
-- Apply PCA to reduce features to **100, 30, and 10 principal components**.  
-- Print the **percentage of variance captured** at each level.  
-- Plot a **Scree Plot** to visualize variance retention.  
-
-### **3. Logistic Regression Models**  
-- Train **four logistic regression models**:  
-  1. **Full dataset (160 features)**  
-  2. **PCA-reduced dataset (100 features)**  
-  3. **PCA-reduced dataset (30 features)**  
-  4. **PCA-reduced dataset (10 features)**  
-- Evaluate performance using **Precision, Recall, F1-score**.  
-
-### **4. Model Evaluation via ROC Curve**  
-- Plot **ROC curves** for all models.  
-- Compute **AUC scores** to compare classification performance.  
+- Used a cleaned version of the **Lending Club loan dataset**, with 160 input features.
+- Set `'loan_status'` as the **target variable**, with the remaining features used for prediction.
+- Applied **Min-Max Scaling** to standardize data before modeling.
+- Performed **Principal Component Analysis (PCA)** to reduce feature dimensions to:
+  - **100 components**
+  - **30 components**
+  - **10 components**
+- Trained **four Logistic Regression models**:
+  1. Full dataset (160 features)
+  2. PCA with 100 components
+  3. PCA with 30 components
+  4. PCA with 10 components
+- Evaluated models using:
+  - **Precision**
+  - **Recall**
+  - **F1-score**
+  - **ROC curves** and **AUC scores**
+- Plotted a **Screen Plot** to visualize how much variance was captured at each PCA level.
 
 ---
 
