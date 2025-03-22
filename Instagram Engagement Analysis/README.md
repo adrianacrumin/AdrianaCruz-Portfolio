@@ -47,27 +47,28 @@ Some patterns stood out:
 
 ---
 ## Assignment Requirements  
-(*For academic transparency, these are the original instructions.*)  
+*(This project was completed as part of a university course on data analytics and social media intelligence. The original assignment instructions have been reworded to respect academic guidelines.)*
 
-On Instagram, choose the National Geographic page (Natgeo) -- do not use hashtags. Write a
-scraper to extract (i) image URLs (do not extract video URLs, it may end up costing you quite a bit of money to run analytics on video), (ii) post caption (the text description of a post), (iii) # likes and (iv) # comments. You don’t need actual comments for this assignment. Scrape around 500 image posts.
+In this group project, our objective was to analyze post engagement on National Geographic’s official Instagram account and uncover what types of content lead to higher audience interaction. The project focused on both **visual** and **textual** features to predict engagement and extract actionable insights.
 
-Using the image URLs, obtain image labels from Google Vision cloud (you will have to create an account with Google to get your credentials as a json file, though the first $300 are free, which should be more than plenty for this assignment). You will need to write a script to access the Google Vision API. You can also use IBM Watson Vision Analytics (the basic account is free) as an alternative (if you are not a Google fan). Read about Google Vision here: For Google Vision API, look here.
+**Below is a high-level summary of the assignment goals (rephrased for academic integrity):**
 
-Task A. Create a metric for engagement by using a weighted sum of # likes and # comments.
-[]
+- Scraped approximately **500 image posts** from the @natgeo Instagram account (excluding videos).
+- Collected the following data from each post:
+  - Image URL  
+  - Caption text  
+  - Number of likes  
+  - Number of comments  
+- Used the **Google Vision API** to generate descriptive image labels for each photo.
+- Created a custom **engagement score** using a weighted combination of likes and comments.
+- Used **TF-IDF** to vectorize image labels and captions.
+- Trained **logistic regression models** to predict whether a post had high or low engagement.
+- Applied **LDA topic modeling** to the image labels to identify recurring visual themes.
+- Compared how topic distributions varied across high and low engagement quartiles.
+- Delivered final **recommendations** to help National Geographic increase engagement through visual strategy.
 
-Task B. Using TF-IDF scores, run a logistic regression with engagement (binary) as the
-dependent variable, and the image labels as independent variables. []
+This project combined elements of **web scraping, natural language processing, computer vision, and machine learning** to explore how content performs in a real-world social media setting.
 
-Task C. Perform topic modeling (LDA) on the image labels. Choose an appropriate number of
-topics. [] Now take the quartiles with highest and lowest engagement scores. What are the differences in the average topic weights of pictures across the two quartiles (e.g., greater proportion of some topics in highest engagement quartile)? []
-
-Task D. What advice would you give National Geographic if it wants to increase engagement on
-its Instagram page based on your findings in Tasks B and C?
-
-Deliverables: Create a Python notebook with all code. Also submit all data files. Write the
-names of all team members inside the notebook.
 ---
 
 ## What I Learned from This Project  
