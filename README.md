@@ -8,6 +8,7 @@ I am a **Business Analytics MS student at UT Austin - McCombs**, focused on **br
 ## Featured Projects  
 1. **Loan Default Prediction** – Predicting loan repayment behavior using PCA & Logistic Regression.
 2. **Instagram Engagement Analysis – Predicting high vs. low engagement** - Group project using Google Vision API, NLP, LDA & Logistic Regression
+3. **Entry-Level Luxury Car Analysis** – Group project using web scraping, NLP, Lift analysis & MDS to uncover brand relationships and aspirational sentiment from real consumer discussions.
 
 ## Skills & Tools  
 - **Technical Tools:** Python, SQL, R, Microsoft Excel, Google Analytics, Airtable  
