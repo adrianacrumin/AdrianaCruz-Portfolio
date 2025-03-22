@@ -6,7 +6,8 @@ I am passionate about **turning complex data into clear, actionable insights** a
 I am a **Business Analytics MS student at UT Austin - McCombs**, focused on **bridging the gap between data and decision-making**. I excel in **communicating insights to executives and stakeholders**, ensuring that analytics lead to informed, strategic actions.  
 
 ## Featured Projects  
-1. **Loan Default Prediction** – Predicting loan repayment behavior using PCA & Logistic Regression.  
+1. **Loan Default Prediction** – Predicting loan repayment behavior using PCA & Logistic Regression.
+2. ** Instagram Engagement Analysis – Predicting high vs. low engagement ** - Group project using Google Vision API, NLP, LDA & Logistic Regression
 
 ## Skills & Tools  
 - **Technical Tools:** Python, SQL, R, Microsoft Excel, Google Analytics, Airtable  
