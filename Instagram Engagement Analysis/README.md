@@ -42,8 +42,8 @@ Specifically, I:
 
 Some patterns stood out:
 
-1. “Savannah”-type images (like animals, warm landscapes) showed up more in popular posts.
-2. “Tundra”-themed content (snow, ice, cold settings) was more common in lower-performing ones.
+1. “Mountain Animals”-type images showed up more in popular posts.
+2. “Rock Formation”-themed content was more common in lower-performing ones.
 
 ---
 ## Assignment Requirements  
