@@ -11,7 +11,7 @@ This passion project explores how individual players influence post performance 
 ---
 ### Project Overview
 
-STILL ACTIVELY WORKING ON IT
+WILL START WORKING ON THIS SUMMER 2025
 ### Key Questions
 - Is the “Messi Effect” still going strong after the initial hype?
 - Which players show up most in Inter Miami's photo posts?
